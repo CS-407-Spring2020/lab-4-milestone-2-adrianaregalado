@@ -8,19 +8,19 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="627dp"
-        android:layout_height="856dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:adjustViewBounds="false"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@drawable/cliff" />
+        app:srcCompat="@drawable/background" />
 
     <TextView
         android:id="@+id/textView"
@@ -30,6 +30,7 @@
         android:text="Hiker's Watch"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -42,7 +43,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="72dp"
         android:text="Latitude: "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -54,7 +55,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="8dp"
         android:text="Longitude: "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/latTextView" />
 
@@ -66,7 +67,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="12dp"
         android:text="Accuracy: "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lonTextView" />
 
@@ -78,7 +79,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="12dp"
         android:text="Altitude: "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/accTextView" />
 
@@ -90,7 +91,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="12dp"
         android:text="Address: "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/altTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
